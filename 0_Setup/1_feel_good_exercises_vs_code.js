@@ -35,13 +35,13 @@
 // On Mac : Shift + Option + F
 // On Linux : Ctrl + Shift + I
 
-let a=              1234    ;
-   a++;
-                if (  a > 123 ) {
-a--;
-        }
-                                              else a++
-        console.log(a);
+let a = 1234;
+a++;
+if (a > 123) {
+    a--;
+}
+else a++
+console.log(a);
 
 // Nothing happened? 
 // If so, your code (technically my code, if you just cloned it)
@@ -84,12 +84,15 @@ a--;
 // Hint: follow the pattern.
 a = 1
 b = 2
-c .= 3
+c = 3
 
 // Hint: This function has no name following the word function.
-function(notUsed) {
+
+function myfunction() {
     console.log('Hello!');
 }
+
+myfunction()
 
 // EXERCISE 3. Autocompletion.
 //////////////////////////////
@@ -101,8 +104,12 @@ function(notUsed) {
 // a. Auto complete for console.log, On the next line, start typing log.
 // A popup window will show up with suggestion, pick the first one.
 
+log
+
 // b. Auto complete for a personal note to fix this line of code. Start typing
 // fix.
+
+fix
 
 // c. What are all the other suggestions? VS Code collects and indexes all the
 // words in the projects and suggest them to you as you type. Sometimes
@@ -120,6 +127,8 @@ function(notUsed) {
 // select "Remove Project Folder." Don't worry it won't delete it from
 // the file system, just from VS Code. Then reopen it using the shortcut
 // Ctrl-Shift-A.
+
+
 
 // b. Comment out useless code with Ctrl-/. Notice if you applied the
 // command multiple times, it will uncomment/comment/uncomment... it.
@@ -160,6 +169,8 @@ if (true) {
 // this exercise. You were a different person, and so this was a different
 // file.
 
+
+
 // a. Open the Git pane on the left (usually it is the third icon from the
 // top, it should have a blue badge with a number on it).
 
@@ -195,7 +206,7 @@ console.log(outcome);
 
 console.log('I want to say it 10 times:');
 for (let i = 0; i < 10; i++) {
-    console.log(i+1 + ': ' + outcome);
+    console.log(i + 1 + ': ' + outcome);
 }
 console.log('Mike drop.');
 
